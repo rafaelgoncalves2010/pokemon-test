@@ -7,5 +7,5 @@ Primeiro instale as dependências do projeto com npm install
 
 
 ### `npm start`
-Depois rode o projeto com npm start
+Depois execute o projeto com npm start
 
