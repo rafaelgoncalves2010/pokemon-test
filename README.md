@@ -3,9 +3,9 @@ Projeto Feito Por Rafael Gonçalves
 ## Consulte seu Pokemon
 
 ### `yarn install`
-Instale as dependências com npm install
+Primeiro instale as dependências do projeto com npm install
 
 
 ### `npm start`
-Para rodar o projeto com npm start
+Depois rode o projeto com npm start
 
