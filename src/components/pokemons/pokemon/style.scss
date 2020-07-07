@@ -108,3 +108,16 @@
         }
     }
 }
+
+.pokemon-loading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background: transparent;
+
+    img{
+        width: 25px;
+    }
+}

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import api from '../../../service/api';
 import Forms from './forms';
-
+import loading from '../../../images/loading.gif';
 
 import './style.scss';
 
@@ -45,7 +45,7 @@ function Pokemon(props) {
                 </div> 
                 <div className="pokemon-forms">
                 <h4>Forms </h4>
-
+        
                 {pokemon.forms.map(element => 
                   <Forms url={element.url} />
                 )} 
@@ -53,7 +53,9 @@ function Pokemon(props) {
             </div>
          </div>
       ):(
-           <p>Carregando...</p>
+        <div className="pokemon-loading">
+           <img src={loading} />
+        </div>
        )}
     </>
   );
